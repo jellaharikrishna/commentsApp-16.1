@@ -1,0 +1,108 @@
+.app-container {
+  height: 100vh;
+  padding: 10px;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.comments-form-container {
+  width: 80%;
+}
+
+.heading {
+  font-family: Roboto;
+  font-size: 40px;
+}
+.image-and-input-container {
+  display: flex;
+  flex-direction: column;
+}
+.comments-icon {
+  width: 100%;
+}
+.input-card {
+}
+.input-title {
+  font-family: Roboto;
+  color: #475569;
+  font-weight: bold;
+}
+.input {
+  font-family: Roboto;
+  font-size: 18px;
+  color: #1e293b;
+  padding-left: 15px;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #dee0e3;
+  border-radius: 2px;
+  outline: none;
+  margin-bottom: 15px;
+}
+.addcomment-btn {
+  font-family: Roboto;
+  font-size: 16px;
+  height: 35px;
+  width: 140px;
+  color: white;
+  background-color: #0284c7;
+  border-radius: 6px;
+  border-width: 0px;
+  cursor: pointer;
+}
+.separator {
+  width: 100%;
+  border: 1px solid #dee0e3;
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+.comment-count-title-div {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+.comment-title {
+  font-family: Roboto;
+  font-size: 18px;
+  color: #475569;
+}
+.comment-count-btn {
+  background-color: #0284c7;
+  font-size: 16px;
+  color: white;
+  height: 25px;
+  width: 25px;
+  border-radius: 3px;
+  border-width: 0;
+  margin-right: 5px;
+}
+.comments-display-container {
+  width: 80%;
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 60px;
+  }
+  .image-and-input-container {
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .comments-icon {
+    order: 1;
+    width: 50%;
+  }
+
+  .input-card {
+    width: 30%;
+  }
+}
+
+.comments-display-lists {
+  list-style-type: none;
+  padding: 0;
+}
